@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+/*헤더*/
+
+#header{}
+
+.hTop{
+	background:#282828;
+	font-size:12px;
+	line-height:40px;
+}
+.hTop a{
+	display:block;
+	color:#fff;
+	padding:0 20px;
+	border-left:1px solid #231F20;
+}
+.engBtn{
+	float:left;
+}
+.engBtn a{
+	border-right:1px solid #231F20;
+}
+
+.util{
+	float:right;
+}
+.util li{
+	float:left;
+}
+.util li:last-child a{
+	padding-right:0;
+}
+.util li a{}
+.util li img{
+	margin-left:10px;
+}
+
+.hBottom{
+	line-height:100px;
+}
+.hBottom h1{
+	width:190px;
+	height:100px;
+	background:url(../images/common/logo.jpg) no-repeat center center;
+	background-size:100%;
+	text-indent:-9999px;
+	float:left;
+}
+.hBottom h1 a{
+	display:block;
+}
+
+.gnb{
+	float:right;
+}
+.gnb li{
+	float:left;
+	padding-left:50px;
+}
+.gnb li a{}
+
+
+/*푸터*/
+
+#footer{
+	background:#1e1e1e;
+	position:relative;
+	font-size:12px;
+	font-weight:200;
+	color:#8c8c8c;
+}
+
+.topBtn{
+	width:102px;
+	height:39px;
+	background:url(../images/common/btn_go_top.png) no-repeat;
+	position:absolute;
+	top:-39px;
+	left:50%;
+	margin-left:-51px;
+	font-size:16px;
+	
+}
+.topBtn a{
+	display:block;
+	height:100%;
+	padding-left:33px;
+	padding-top:10px;
+	color:#646464;
+	box-sizing:border-box;
+	
+}
+
+.fTop{
+	background:#282828;
+	padding:50px 0;
+}
+.fTop dl{
+	float:left;
+	margin-right:80px;
+}
+.fTop dt{
+	color:#646464;
+	font-weight:bold;
+	background:url(../images/common/bar_snb.gif) no-repeat left bottom;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+.fTop dd{
+	line-height:24px;
+}
+.fTop dd a{
+	color:#8c8c8c;
+}
+
+.fBottom{
+	padding:50px 0;
+	position:relative;
+	
+}
+
+.fLogo{
+	width:120px;
+	height:20px;
+	background:url(../images/common/logo_foot.gif) no-repeat center center/100%;
+	text-indent:-9999px;
+	margin-bottom:20px;
+}
+
+.fInfo{
+	overflow:hidden;
+}
+.fInfo li{
+	float:left;
+}
+.fInfo li::after{
+	content:"";
+	display:inline-block;
+	width:1px;
+	height:8px;
+	background:#2d3333;
+	margin:0 5px;
+}
+.fInfo li:last-child::after{
+	display:none;
+}
+
+.fInfo li a{
+	color:#8c8c8c;
+}
+
+.copy{
+	margin-top:20px;
+}
+
+.fSns{
+	position:absolute;
+	right:0;
+	top:50px;;
+}
+.fSns li{
+	float:left;
+	width:24px;
+	margin-left:5px;
+}
+.fSns li a{}
+.fSns li img{
+	width:100%;
+}
